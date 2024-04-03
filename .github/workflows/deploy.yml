@@ -31,4 +31,4 @@ jobs:
         with:
           project: "letter"
           entrypoint: "main.ts"
-          root: "./src"
+          root: "."
