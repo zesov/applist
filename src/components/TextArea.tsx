@@ -4,7 +4,7 @@ export interface TextareaProps {
 	fullWidth?: boolean;
 }
 
-export default function Input(
+export default function Textarea(
 	props: TextareaProps & JSX.IntrinsicElements["textarea"],
 ) {
 	return (

@@ -51,6 +51,7 @@
 		"tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js",
 		"ua-parser-js": "https://esm.sh/ua-parser-js@1.0.2",
 		"imagescript": "https://esm.sh/imagescript@1.2.15",
+		"stripe": "npm:/stripe@13.5.0",
 		"deno-kv-insights": "https://deno.land/x/deno_kv_insights@v0.8.0-beta/mod.ts"
 	},
 	"scopes": {},

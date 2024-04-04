@@ -5,36 +5,11 @@ export default function Footer() {
 		<footer class="my-8 text-center">
 			<Container>
 				<a
-					href="https://roseto.co"
-					target="_blank"
+					href="mailto:baich.info@gmail.com" target="_blank" rel="noopener noreferrer"
 					class="hover:underline opacity-75 text-center"
 				>
-					Made with <span role="img">❤</span>{" "}
-					by Roseto
+					Got issues? Reach us here
 				</a>
-				<div class="flex flex-row gap-2 mt-4 justify-center">
-					<a
-						href="/privacy"
-						class="underline opacity-75"
-					>
-						Privacy Policy
-					</a>&middot;
-					<a
-						href="/terms-and-conditions"
-						class="underline opacity-75"
-					>
-						Terms and Conditions
-					</a>
-				</div>
-
-				<div class="flex flex-row gap-2 mt-4 justify-center">
-					<a
-						href="/docs"
-						class="underline opacity-75"
-					>
-						Docs
-					</a>
-				</div>
 			</Container>
 		</footer>
 	);
