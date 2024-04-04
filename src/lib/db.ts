@@ -1,7 +1,7 @@
 import { App } from "@/types/App.ts";
 import { AppSpec } from "../../scripts/checkUpdates.ts";
 
-const isRunningInCI = !!Deno.env.get("CI");
+const isRunningInCI = !Deno.env.get("CI");
 
 export const kv = await Deno.openKv(isRunningInCI ? Deno.env.get("DENO_KV_PATH") : undefined);
 
