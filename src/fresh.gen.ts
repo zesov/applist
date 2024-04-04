@@ -6,9 +6,10 @@ import * as $_app from "./routes/_app.tsx";
 import * as $_middleware from "./routes/_middleware.ts";
 import * as $api_image_proxy from "./routes/api/image-proxy.ts";
 import * as $api_index from "./routes/api/index.ts";
-import * as $api_stripe_webhooks from "./routes/api/stripe-webhooks.ts";
+import * as $api_stripe_webhook from "./routes/api/stripe-webhooks.ts";
 import * as $app_id_ from "./routes/app/[id].tsx";
 import * as $app_error from "./routes/app/error.tsx";
+import * as $buy from "./routes/buy.ts";
 import * as $category_id_ from "./routes/category/[id].tsx";
 import * as $category_index from "./routes/category/index.tsx";
 import * as $docs_doc_ from "./routes/docs/[doc].tsx";
@@ -37,9 +38,10 @@ const manifest = {
 		"./routes/_middleware.ts": $_middleware,
 		"./routes/api/image-proxy.ts": $api_image_proxy,
 		"./routes/api/index.ts": $api_index,
-		"./routes/api/stripe-webhooks.ts": $api_stripe_webhooks,
+		"./routes/api/stripe-webhook.ts": $api_stripe_webhook,
 		"./routes/app/[id].tsx": $app_id_,
 		"./routes/app/error.tsx": $app_error,
+		"./routes/buy.ts": $buy,
 		"./routes/category/[id].tsx": $category_id_,
 		"./routes/category/index.tsx": $category_index,
 		"./routes/docs/[doc].tsx": $docs_doc_,
