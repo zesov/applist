@@ -5,14 +5,14 @@ export default function Footer() {
 		<footer class="my-8 text-center">
 			<Container>
 				<a
-					href="https://roseto.co"
+					href="https://jun.ac"
 					target="_blank"
 					class="hover:underline opacity-75 text-center"
 				>
 					Made with <span role="img">❤</span>{" "}
-					by Roseto
+					by Juniac
 				</a>
-				<div class="flex flex-row gap-2 mt-4 justify-center">
+				{/* <div class="flex flex-row gap-2 mt-4 justify-center">
 					<a
 						href="/privacy"
 						class="underline opacity-75"
@@ -25,7 +25,7 @@ export default function Footer() {
 					>
 						Terms and Conditions
 					</a>
-				</div>
+				</div> */}
 
 				<div class="flex flex-row gap-2 mt-4 justify-center">
 					<a
