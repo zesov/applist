@@ -95,15 +95,14 @@ export default async function Welcome(req: Request) {
 				<title>Send Special Emails</title>
 			</Head>
 			<Container class="flex flex-col h-screen justify-center relative">
-				<a
+				<div
 					class="text-7xl font-bold"
-					href="#"
 				>
 					Send anyonymous emails{" "}
 					<span class="text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">
 						to your ...
 					</span>
-				</a>
+				</div>
 				<p class="self-center text-center opacity-50 font-medium absolute bottom-4 animate-bounce">
 					Interested? Scroll down to do it.<br />
 					<Icon

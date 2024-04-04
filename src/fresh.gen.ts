@@ -9,7 +9,6 @@ import * as $api_index from "./routes/api/index.ts";
 import * as $api_stripe_webhook from "./routes/api/stripe-webhooks.ts";
 import * as $app_id_ from "./routes/app/[id].tsx";
 import * as $app_error from "./routes/app/error.tsx";
-import * as $buy from "./routes/buy.ts";
 import * as $category_id_ from "./routes/category/[id].tsx";
 import * as $category_index from "./routes/category/index.tsx";
 import * as $docs_doc_ from "./routes/docs/[doc].tsx";
@@ -41,7 +40,6 @@ const manifest = {
 		"./routes/api/stripe-webhook.ts": $api_stripe_webhook,
 		"./routes/app/[id].tsx": $app_id_,
 		"./routes/app/error.tsx": $app_error,
-		"./routes/buy.ts": $buy,
 		"./routes/category/[id].tsx": $category_id_,
 		"./routes/category/index.tsx": $category_index,
 		"./routes/docs/[doc].tsx": $docs_doc_,
